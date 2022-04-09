@@ -1,9 +1,18 @@
-*include <stdio.h>/***main - Entry point
+#include <stdio.h>
+#include <string.h>
+
+/**
+*main - Main function of my project
 *
-* return: 0 after printing the function
+*
+*Return: return 0 everytime
 */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+
+	char displayed[52];
+
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
+	return (0);
 }
